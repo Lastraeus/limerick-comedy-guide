@@ -59,3 +59,37 @@ h1, h2 {
     border: 2px solid #fafafa;
     color: orange;
 }
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#hero-image {
+    height:600px;
+    width:100%;
+
+    /* images sourced from https://www.pexels.com/photo/close-up-photography-of-microphone-144429/ */
+    background: url('../images/hero.jpg') no-repeat center center;
+    background-size: cover;
+
+    /* animates the hero image upon loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the hero image zoom */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    
+    to {
+        transform: scale(1.1);
+    }
+}
