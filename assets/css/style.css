@@ -15,6 +15,10 @@ body {
 
 
 /* headings and logo */
+h1 {
+    font-size: 170%;
+}
+
 h1, h2 {
     font-family: Barlow, sans-serif;
     text-transform: uppercase;
@@ -25,6 +29,7 @@ h1, h2 {
 #logo {
     float:left;
     font-size: 280%;
+    margin-left:30px; 
 }
 
 /* nav links */
@@ -83,7 +88,7 @@ h1, h2 {
     height:600px;
     width:100%;
 
-    /* images sourced from https://www.pexels.com/photo/close-up-photography-of-microphone-144429/ */
+    /* image sourced from https://www.pexels.com/photo/close-up-photography-of-microphone-144429/ */
     background: url('../images/hero.jpg') no-repeat center center;
     background-size: cover;
 
@@ -110,12 +115,55 @@ h1, h2 {
     font-family: Montserrat, sans-serif;
     width:400px;
     height:300px;
-    padding-top: 40px;
+    padding-top: 60px;
     padding: left 10px;
-
-    /* background-color: rgba(120, 120, 120, .4); */
-
-    bottom: 30px;
+    top: 30px;
     left: 150px;
     position: absolute
 }
+
+/* Regular Comedy Nights Section */
+
+#regular-section {
+    height:1240px;
+    background: url('../images/bar.jpg') no-repeat center center;
+    ;
+}
+
+#regular-section h1{
+    height:40px;
+    text-align: center;
+    padding:30px
+}
+
+#top-left-regular {
+    height:570px;
+    width:50%;
+    float:left;
+    background-color: rgba(0, 0, 255, .5);
+}
+
+#top-right-regular {
+    height:570px;
+    width:50%;
+    float:right;
+
+    background-color: rgba(192, 192, 192, 0.5);
+}
+
+#bottom-left-regular {
+    height:570px;
+    width:50%;
+    float:left;
+    background-color: rgba(0, 128, 0, 0.473);
+}
+
+#bottom-right-regular {
+    height:570px;
+    width:50%;
+    float:right;
+
+    background-color: rgba(255, 0, 0, 0.466);
+}
+
+
