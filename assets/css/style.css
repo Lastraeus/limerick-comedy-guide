@@ -4,9 +4,58 @@
     margin: 0;
     padding: 0;
     border: none;
+    background-color: black;
 }
 
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
+    color:#fafafa
+}
+
+
+/* headings and logo */
+h1, h2 {
+    font-family: Barlow, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:orange
+}
+
+#logo {
+    float:left;
+    font-size: 280%;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height:75px
+}
+
+#menu li{
+    float:right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid orange;
+    padding: 6px;
+    font-weight: 600;
+}
+
+#menu a:hover {
+    border: 2px solid #fafafa;
+    color: #fafafa;
+}
+
+#menu .active {
+    border: 2px solid #fafafa;
+    color: orange;
 }
