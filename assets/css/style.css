@@ -27,6 +27,8 @@ h1, h2 {
     font-size: 280%;
 }
 
+/* nav links */
+
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
@@ -60,13 +62,21 @@ h1, h2 {
     color: orange;
 }
 
-/* hero image */
+/* hero image & text*/
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
 
+    position: relative;
+}
+
+#cover-text, #cover-text h2, #cover-text h3{
+        color:white;
+        background-color: transparent;
+        padding-bottom: 20px;
+        text-align: center;
 }
 
 #hero-image {
@@ -92,4 +102,20 @@ h1, h2 {
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    color:#fafafa;
+    font-size: 100%;
+    font-family: Montserrat, sans-serif;
+    width:400px;
+    height:300px;
+    padding-top: 40px;
+    padding: left 10px;
+
+    /* background-color: rgba(120, 120, 120, .4); */
+
+    bottom: 30px;
+    left: 150px;
+    position: absolute
 }
