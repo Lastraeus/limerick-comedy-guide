@@ -169,10 +169,10 @@ h1, h2 {
 
 #regular-nights-grid {
     margin: auto;
-    max-width: 1800px;
+    max-width: 1600px;
     display:grid;
     row-gap: 400px;
-    column-gap: 400px;
+    column-gap: 300px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
     place-items: center top;
@@ -180,7 +180,7 @@ h1, h2 {
 }
 
 .regular-night-boxes{
-    width: 700px;
+    width: auto;
     height: auto;
     background-color: rgba(54, 54, 54, 0.8);
     text-align: center;
