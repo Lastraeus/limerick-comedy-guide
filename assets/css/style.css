@@ -9,15 +9,29 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
+    letter-spacing: 2px;
     color:#fafafa
 }
 
+p {
+    font-size: 120%;
+}
+
+a {
+    background-color: transparent;
+    color: orange;
+}
+a:hover {
+    
+    color: green;
+}
 
 /* headings and logo */
 h1 {
     font-size: 170%;
 }
+
 
 h1, h2 {
     font-family: Barlow, sans-serif;
@@ -123,12 +137,12 @@ h1, h2 {
 }
 
 /* Regular Comedy Nights Section */
-.center-regular {
+.center-section {
     margin:auto;
 }
 
 #regular-section {
-    height:auto;
+    max-height:1200px;
     aspect-ratio: 4075/2722; /* Based on original image size*/
     background: url('../images/bar.jpg') no-repeat center center;
     background-size:cover;
@@ -144,13 +158,18 @@ h1, h2 {
     background-color: transparent;
 }
 
+#regular-section h2{
+    padding: 30px;
+}
 
 #regular-nights-grid {
+    margin: auto;
+    max-width: 1800px;
     display:grid;
     row-gap: 50px;
     column-gap: 400px;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
     place-items: center;
     background-color: transparent;
 }
@@ -158,10 +177,15 @@ h1, h2 {
 .regular-night-boxes{
     width: 600px;
     height: 600px;
+    background-color: rgba(54, 54, 54, 0.7);
+    text-align: center;
+    border-radius: 15%;
 }
 
+/* Below colors For testing Box Layout TODO Remove */
+/* 
 #top-left-regular {
-    background-color: rgba(0, 0, 255, .5);
+    background-color: rgba(85, 85, 85, 0.7);
 }
 
 #top-right-regular {
@@ -175,4 +199,4 @@ h1, h2 {
 #bottom-right-regular {
     background-color: rgba(255, 0, 0, 0.466);
 }
-
+ */
