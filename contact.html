@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Limerick Comedy Guide for comedy fans in Limerick, Ireland">
+    <meta name="keywords" content="comedy, Limerick comedy guide, Ireland, stand-up">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Limerick Comedy Guide</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+        <h1 id="logo">
+            Limerick Comedy Guide
+        </h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="contact.html" class="active">Contact</a>
+                </li>
+                <li>
+                    <a href="comedy-links.html">Comedy Links</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact-section">
+        <!-- form goes nowhere due to scope of project -->
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form"> 
+            <h2>Have any questions, or maybe you want to tell me a joke?</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required class="text-input">
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required class="text-input">
+            <label for="email">Email Address</label>
+            <input id="email" name="email_address" type="email" required class="text-input">
+
+            <label for="message">Your Message</label>
+            <textarea name="message" id="message" placeholder="Come on, be nice." rows="10" cols="40" class="textarea-input text-input"></textarea>
+
+            <p>Wouldn't mind pre-warning me what this is would you?</p>
+            <br>
+            <input id="suggestion" name="message_type" type="radio" value="suggestion" required>
+            <label for="suggestion">Suggestion</label>
+            <br>
+            <input id="complaint" name="message_type" type="radio" value="complaint">
+            <label for="complaint">Complaint</label>
+            <br>
+            <input id="joke" name="message_type" type="radio" value="joke">
+            <label for="joke">Joke</label>
+            <br>
+            <input id="other" name="message_type" type="radio" value="other">
+            <label for="other">Something else?</label>
+            <br>
+            <input id="nope" name="message_type" type="radio" value="nope">
+            <label for="nope">No Hints! - You'll have to see</label>
+
+            <br>
+            
+            <input type="submit" value="Fire Away!" class="fire-away-button">
+        </form>
+    </section>
+    <footer>
+        <ul class="social-links">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page to stand in awe of Mr Zuckerberg (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page to see Elon Musk in action(opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab) to escape this reality"><i class="fab fa-youtube-square"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/ae0900deec.js" crossorigin="anonymous"></script>
+</body>
+</html>
