@@ -200,3 +200,47 @@ h1, h2 {
     background-color: rgba(255, 0, 0, 0.466);
 }
  */
+/* Touring Venus */
+
+
+/* Regular Comedy Nights Section */
+#tour-section {
+    max-height:1200px;
+    aspect-ratio: 4075/2722; /* Based on original image size*/
+    background: url('../images/stage.jpg') no-repeat center center;
+    background-size:cover;
+}
+
+#tour-section h1{
+    height:40px;
+    text-align: center;
+    padding:30px
+}
+
+#tour-section h2, p {
+    background-color: transparent;
+}
+
+#tour-section h2{
+    padding: 30px;
+}
+
+#tour-gigs-grid {
+    margin: auto;
+    max-width: 1800px;
+    display:grid;
+    row-gap: 50px;
+    column-gap: 400px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+    background-color: transparent;
+}
+
+.tour-boxes{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(39, 39, 39, 0.7);
+    text-align: center;
+    border-radius: 15%;
+}
