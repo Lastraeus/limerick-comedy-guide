@@ -78,7 +78,7 @@ h1, h2 {
 }
 
 #cover-text, #cover-text h2, #cover-text h3{
-        color:white;
+        /* color:white; */
         background-color: transparent;
         padding-bottom: 20px;
         text-align: center;
@@ -123,11 +123,15 @@ h1, h2 {
 }
 
 /* Regular Comedy Nights Section */
+.center-regular {
+    margin:auto;
+}
 
 #regular-section {
-    height:1240px;
+    height:auto;
+    aspect-ratio: 4075/2722; /* Based on original image size*/
     background: url('../images/bar.jpg') no-repeat center center;
-    ;
+    background-size:cover;
 }
 
 #regular-section h1{
@@ -136,34 +140,39 @@ h1, h2 {
     padding:30px
 }
 
+#regular-section h2, p {
+    background-color: transparent;
+}
+
+
+#regular-nights-grid {
+    display:grid;
+    row-gap: 50px;
+    column-gap: 400px;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(600px, 1fr));
+    place-items: center;
+    background-color: transparent;
+}
+
+.regular-night-boxes{
+    width: 600px;
+    height: 600px;
+}
+
 #top-left-regular {
-    height:570px;
-    width:50%;
-    float:left;
     background-color: rgba(0, 0, 255, .5);
 }
 
 #top-right-regular {
-    height:570px;
-    width:50%;
-    float:right;
-
     background-color: rgba(192, 192, 192, 0.5);
 }
 
 #bottom-left-regular {
-    height:570px;
-    width:50%;
-    float:left;
     background-color: rgba(0, 128, 0, 0.473);
 }
 
 #bottom-right-regular {
-    height:570px;
-    width:50%;
-    float:right;
-
     background-color: rgba(255, 0, 0, 0.466);
 }
-
 
