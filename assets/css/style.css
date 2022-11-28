@@ -136,22 +136,22 @@ h1, h2 {
     position: absolute
 }
 
-/* Regular Comedy Nights Section */
-.center-section {
+/* generic section styles */
+
+.home-sections {
     margin:0 auto;
 }
 
+
+/* Regular Comedy Nights Section */
 #regular-section {
     max-height:1000px;
     aspect-ratio: 4075/2722; /* Based on original image size*/
     background: url('../images/bar.jpg') no-repeat center center;
     background-size:cover;
+    
 }
-@media screen and (max-width:1200px) {
-    #regular-section {
-        max-height:1800px;
-    }
-}
+
 
 #regular-section h1{
     height:40px;
@@ -180,23 +180,35 @@ h1, h2 {
 }
 
 .regular-night-boxes{
-    width: auto;
+    width: 700px;
     height: auto;
-    background-color: rgba(54, 54, 54, 0.7);
+    background-color: rgba(54, 54, 54, 0.8);
     text-align: center;
-    border-radius: 15%;
+    border-radius: 10%;
     padding-bottom: 50px;
 }
 
+@media screen and (max-width:1200px) {
+    #regular-section {
+        max-height:1800px;
+        
+    }
+
+    #regular-nights-grid {
+        row-gap: 40px;
+    }
+
+}
+
+
 /* Touring Venus */
 
-
-/* Regular Comedy Nights Section */
 #tour-section {
     max-height:1200px;
-    aspect-ratio: 4075/2722; /* Based on original image size*/
+    aspect-ratio: 4080/2485; /* Based on original image size*/
     background: url('../images/stage.jpg') no-repeat center center;
-    background-size:cover;
+    background-size: cover;
+    
 }
 
 #tour-section h1{
@@ -226,11 +238,12 @@ h1, h2 {
 }
 
 .tour-boxes{
-    width: 400px;
-    height: 400px;
-    background-color: rgba(39, 39, 39, 0.7);
+    width: 600px;
+    height: auto;
+    background-color: rgba(54, 54, 54, 0.8);
     text-align: center;
-    border-radius: 15%;
+    border-radius: 10%;
+    padding-bottom: 50px;
 }
 
 /* footer bar */
