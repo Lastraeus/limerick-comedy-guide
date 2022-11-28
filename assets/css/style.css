@@ -227,7 +227,7 @@ h1, h2 {
 
 #tour-gigs-grid {
     margin: auto;
-    max-width: 1800px;
+    max-width: 1600px;
     display:grid;
     row-gap: 50px;
     column-gap: 400px;
@@ -238,7 +238,7 @@ h1, h2 {
 }
 
 .tour-boxes{
-    width: 600px;
+    width: auto;
     height: auto;
     background-color: rgba(54, 54, 54, 0.8);
     text-align: center;
