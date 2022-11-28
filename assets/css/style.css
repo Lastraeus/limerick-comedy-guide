@@ -233,7 +233,7 @@ h1, h2 {
     column-gap: 400px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
-    place-items: center;
+    place-items: center top;
     background-color: transparent;
 }
 
@@ -275,6 +275,7 @@ footer {
     background-size: cover;
     background-position: center;
     height: 900px;
+    padding-bottom: 100px;
 }
 
 .contact-form {
@@ -282,6 +283,7 @@ footer {
     color:#fff;
     background-color:transparent;
     max-width:400px;
+    max-height: 1000px;
     position:absolute;
     left:10%;
     padding:30px;
