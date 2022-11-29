@@ -325,12 +325,37 @@ footer {
 }
 
 /* comedy-links page */
+#comedy-links-bg {
+    clear:left;
+    background-image: url(../images/orange-mic.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+        
+}
+
+#link-cards-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.link-cards {
+    background-color: #2b2b2b;
+    min-width: 300px;
+    min-height: 300px;
+}
+
 #map-section {
     text-align: center;
+    height: auto;
 }
 
 #map-section h2,#map-section h3 {
     padding: 1em;
+    background: #000000;
 }
 
 #map-section iframe {
