@@ -49,14 +49,11 @@ h2 {
 
 /* nav links */
 
-nav {
-}
-
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
     width: fit-content;
-    float:right;
+    float: right;
 }
 
 #menu,
@@ -325,4 +322,19 @@ footer {
 .fire-away-button:hover {
     background-color: #fafafa;
     color: orange;
+}
+
+/* comedy-links page */
+#map-section {
+    text-align: center;
+}
+
+#map-section h2,#map-section h3 {
+    padding: 1em;
+}
+
+#map-section iframe {
+    width: 60%;
+    min-width: 600px;
+    aspect-ratio: 1/1;
 }
