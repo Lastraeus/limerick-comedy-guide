@@ -4,14 +4,15 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: black;
+
 }
 
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     letter-spacing: 2px;
-    color:#fafafa
+    color: #fafafa;
+    background-color: #000000;
 }
 
 p {
@@ -19,11 +20,11 @@ p {
 }
 
 a {
-    background-color: transparent;
     color: orange;
 }
+
 a:hover {
-    
+
     color: green;
 }
 
@@ -32,18 +33,18 @@ h1 {
     font-size: 170%;
 }
 
-
-h1, h2 {
+h1,
+h2 {
     font-family: Barlow, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:orange
+    color: orange
 }
 
 #logo {
-    float:left;
+    float: left;
     font-size: 280%;
-    margin-left:30px; 
+    margin-left: 30px;
 }
 
 /* nav links */
@@ -53,12 +54,13 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
-    line-height:75px
+#menu,
+#logo {
+    line-height: 75px
 }
 
-#menu li{
-    float:right;
+#menu li {
+    float: right;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -91,16 +93,16 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2, #cover-text h3{
-        /* color:white; */
-        background-color: transparent;
-        padding-bottom: 20px;
-        text-align: center;
+#cover-text,
+#cover-text h2,
+#cover-text h3 {
+    padding-bottom: 15%;
+    text-align: center;
 }
 
 #hero-image {
-    height:600px;
-    width:100%;
+    height: 600px;
+    width: 100%;
 
     /* image sourced from https://www.pexels.com/photo/close-up-photography-of-microphone-144429/ */
     background: url('../images/hero.jpg') no-repeat center center;
@@ -108,27 +110,27 @@ h1, h2 {
 
     /* animates the hero image upon loading page */
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
 }
 
 /* creates the hero image zoom */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    
+
     to {
         transform: scale(1.1);
     }
 }
 
 #cover-text {
-    color:#fafafa;
+    color: #fafafa;
     font-size: 100%;
     font-family: Montserrat, sans-serif;
-    width:400px;
-    height:300px;
+    width: 400px;
+    height: 300px;
     padding-top: 60px;
     padding: left 10px;
     top: 30px;
@@ -139,38 +141,35 @@ h1, h2 {
 /* generic section styles */
 
 .home-sections {
-    margin:0 auto;
+    margin: 0 auto;
 }
-
 
 /* Regular Comedy Nights Section */
+
+/* Aspect based on original image size*/
 #regular-section {
-    max-height:1000px;
-    aspect-ratio: 4075/2722; /* Based on original image size*/
     background: url('../images/bar.jpg') no-repeat center center;
-    background-size:cover;
-    
+    aspect-ratio: 4075/2722;
+    max-height: 1000px;
+    background-size: cover;
+
 }
 
-
-#regular-section h1{
-    height:40px;
+#regular-section h1 {
+    height: 40px;
     text-align: center;
-    padding:30px
-}
-
-#regular-section h2, p {
-    background-color: transparent;
-}
-
-#regular-section h2{
     padding: 30px;
+    background: #000000;
+}
+
+#regular-section h2 {
+    padding: 5%;
 }
 
 #regular-nights-grid {
     margin: auto;
     max-width: 1600px;
-    display:grid;
+    display: grid;
     row-gap: 400px;
     column-gap: 300px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -179,7 +178,7 @@ h1, h2 {
     background-color: transparent;
 }
 
-.regular-night-boxes{
+.regular-night-boxes {
     width: auto;
     height: auto;
     background-color: rgba(54, 54, 54, 0.8);
@@ -190,8 +189,8 @@ h1, h2 {
 
 @media screen and (max-width:1200px) {
     #regular-section {
-        max-height:1800px;
-        
+        max-height: 1800px;
+
     }
 
     #regular-nights-grid {
@@ -204,40 +203,36 @@ h1, h2 {
 /* Touring Venus */
 
 #tour-section {
-    max-height:1200px;
-    aspect-ratio: 4080/2485; /* Based on original image size*/
+    max-height: 1200px;
+    aspect-ratio: 4080/2485;
+    /* Based on original image size*/
     background: url('../images/stage.jpg') no-repeat center center;
     background-size: cover;
-    
+
 }
 
-#tour-section h1{
-    height:40px;
+#tour-section h1 {
+    height: 40px;
     text-align: center;
-    padding:30px
+    padding: 30px
 }
 
-#tour-section h2, p {
-    background-color: transparent;
-}
-
-#tour-section h2{
+#tour-section h2 {
     padding: 30px;
 }
 
 #tour-gigs-grid {
     margin: auto;
     max-width: 1600px;
-    display:grid;
+    display: grid;
     row-gap: 50px;
     column-gap: 400px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
     place-items: center top;
-    background-color: transparent;
 }
 
-.tour-boxes{
+.tour-boxes {
     width: auto;
     height: auto;
     background-color: rgba(54, 54, 54, 0.8);
@@ -249,14 +244,15 @@ h1, h2 {
 /* footer bar */
 
 footer {
-    height: 150px;
+    margin-top: 2rem;
+    height: 100px;
 }
 
 .social-links {
     text-align: center;
 }
 
-.social-links > li {
+.social-links>li {
     display: inline;
 }
 
@@ -271,61 +267,57 @@ footer {
 
 .contact-section {
     clear: left;
-    background:  url('../images/mic-pass.jpg');
+    background: url('../images/mic-pass.jpg');
     background-size: cover;
     background-position: center;
-    height: 900px;
-    padding-bottom: 100px;
+    height: 1000px;
 }
 
 .contact-form {
-    margin:150px 10% 0 0;
-    color:#fff;
-    background-color:transparent;
-    max-width:400px;
+    margin: 150px 10% 0 0;
+    color: #fff;
+    max-width: 400px;
     max-height: 1000px;
-    position:absolute;
-    left:10%;
-    padding:30px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
 }
 
-.contact-form h2{
-    margin-bottom:20px;
-    background-color: transparent;
+.contact-form h2 {
+    margin-bottom: 20px;
 }
 
 .text-input {
-    background:transparent;
-    color:#fafafa;
-    width:100%;
-    height:25px;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid orange;
-    border-radius:2px;
-    
+    border-radius: 2px;
+
 }
 
-.textarea-input{
-    height:250px;
+.textarea-input {
+    height: 250px;
 }
 
 .text-input:hover {
-    border-color:white;
+    border-color: white;
 }
 
 .fire-away-button {
-    margin-top:20px;
-    border-radius:2px;
-    padding:15px 32px 15px 32px;
-    text-align:center;
-    font-size:130%;
-    font-weight:700;
-    background-color:orange;
-    color:black;
-    display:block;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 700;
+    background-color: orange;
+    color: black;
+    display: block;
 }
 
 .fire-away-button:hover {
-    background-color:#fafafa;
-    color:orange;
+    background-color: #fafafa;
+    color: orange;
 }
