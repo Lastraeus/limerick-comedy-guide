@@ -326,20 +326,39 @@ footer {
 
 /* comedy-links page */
 #comedy-links-bg {
-    clear:left;
+    clear: left;
     background-image: url(../images/orange-mic.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-        
+
 }
 
 #link-cards-container {
-    text-align: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
+    padding: 50px;
+}
+
+@media (max-width: 1200px) {
+    #link-cards-container {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-gap: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    #link-cards-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 50px;
+        padding: 50px;
+        
+    }
 }
 
 .link-cards {
@@ -349,11 +368,15 @@ footer {
 }
 
 #map-section {
-    text-align: center;
     height: auto;
 }
 
-#map-section h2,#map-section h3 {
+.link-page-sections {
+    text-align: center;
+}
+
+.link-page-sections h2,
+.link-page-sections h3 {
     padding: 1em;
     background: #000000;
 }
