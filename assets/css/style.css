@@ -49,9 +49,14 @@ h2 {
 
 /* nav links */
 
+nav {
+}
+
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
+    width: fit-content;
+    float:right;
 }
 
 #menu,
