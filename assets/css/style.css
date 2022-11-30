@@ -20,12 +20,12 @@ p {
 }
 
 a {
-    color: orange;
+    color: #ffa500;
 }
 
 a:hover {
 
-    color: green;
+    color: #008000;
 }
 
 /* headings and logo */
@@ -38,7 +38,7 @@ h2 {
     font-family: Barlow, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: orange
+    color: #ffa500
 }
 
 #logo {
@@ -70,7 +70,7 @@ h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
-    border: 2px solid orange;
+    border: 2px solid #ffa500;
     padding: 6px;
     font-weight: 600;
 }
@@ -91,7 +91,6 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -105,12 +104,8 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-
-    /* image sourced from https://www.pexels.com/photo/close-up-photography-of-microphone-144429/ */
     background: url('../images/hero.jpg') no-repeat center center;
     background-size: cover;
-
-    /* animates the hero image upon loading page */
     animation-name: hero-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;
@@ -148,10 +143,8 @@ h2 {
 
 /* Regular Comedy Nights Section */
 
-/* Aspect based on original image size*/
 #regular-section {
     background: url('../images/bar-laugh.jpg') no-repeat center center;
-    /* max-height: 1000px; */
     background-size: cover;
 
 }
@@ -181,7 +174,8 @@ h2 {
 #regular-nights-flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    gap: 50px;
 }
 
 .regular-night-boxes {
@@ -190,7 +184,7 @@ h2 {
     background-color: #2b2b2bbb;
     text-align: center;
     border-radius: 10%;
-    padding-bottom: 50px;
+    padding: 2rem;
 }
 
 
@@ -229,7 +223,7 @@ h2 {
 .tour-boxes {
     width: auto;
     height: auto;
-    background-color: rgba(54, 54, 54, 0.8);
+    background-color: #363636cc;
     text-align: center;
     border-radius: 10%;
     padding-bottom: 50px;
@@ -254,7 +248,7 @@ footer {
     font-size: 280%;
     margin: 1%;
     padding: 5%;
-    color: orange;
+    color: #ffa500;
 }
 
 /* contact form */
@@ -286,7 +280,7 @@ footer {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid orange;
+    border: 1px solid #ffa500;
     border-radius: 2px;
 
 }
@@ -296,7 +290,7 @@ footer {
 }
 
 .text-input:hover {
-    border-color: white;
+    border-color: #ffffff;
 }
 
 .fire-away-button {
@@ -306,14 +300,14 @@ footer {
     text-align: center;
     font-size: 130%;
     font-weight: 700;
-    background-color: orange;
+    background-color: #ffa500;
     color: black;
     display: block;
 }
 
 .fire-away-button:hover {
     background-color: #fafafa;
-    color: orange;
+    color: #ffa500;
 }
 
 /* comedy-links page */
@@ -334,27 +328,8 @@ footer {
     padding: 50px;
 }
 
-@media (max-width: 1200px) {
-    #link-cards-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 50px;
-    }
-}
-
-@media (max-width: 600px) {
-    #link-cards-container {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 50px;
-        padding: 50px;
-
-    }
-}
-
 .warning-emphasis {
-    color: red;
+    color: #ff0000;
     font-weight: bolder;
     text-transform: uppercase;
 }
@@ -397,4 +372,25 @@ footer {
     width: 60%;
     min-width: 600px;
     aspect-ratio: 1/1;
+}
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+    #link-cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    #link-cards-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 50px;
+        padding: 50px;
+
+    }
 }
