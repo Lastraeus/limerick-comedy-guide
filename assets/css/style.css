@@ -345,7 +345,7 @@ footer {
 @media (max-width: 1200px) {
     #link-cards-container {
         display: grid;
-        grid-template-columns:1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 50px;
     }
 }
@@ -357,14 +357,34 @@ footer {
         text-align: center;
         margin: 50px;
         padding: 50px;
-        
+
     }
+}
+
+.warning-emphasis {
+    color: red;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .link-cards {
     background-color: #2b2b2b;
     min-width: 300px;
     min-height: 300px;
+}
+
+.link-cards p {
+    margin: 20px;
+}
+
+.psnote {
+    font-weight: 100;
+    font-style: italic;
+}
+
+.link-cards p a {
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 #map-section {
