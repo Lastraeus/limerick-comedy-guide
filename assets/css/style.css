@@ -150,11 +150,21 @@ h2 {
 
 /* Aspect based on original image size*/
 #regular-section {
-    background: url('../images/bar.jpg') no-repeat center center;
-    aspect-ratio: 4075/2722;
-    max-height: 1000px;
+    background: url('../images/bar-laugh.jpg') no-repeat center center;
+    /* max-height: 1000px; */
     background-size: cover;
 
+}
+
+#regular-blurb {
+    text-align: center;
+    background: #2b2b2bbb;
+    font-weight: 600;
+    line-height: 160%;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
 }
 
 #regular-section h1 {
@@ -168,37 +178,19 @@ h2 {
     padding: 5%;
 }
 
-#regular-nights-grid {
-    margin: auto;
-    max-width: 1600px;
-    display: grid;
-    row-gap: 400px;
-    column-gap: 300px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
-    place-items: center top;
-    background-color: transparent;
+#regular-nights-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .regular-night-boxes {
-    width: auto;
+    max-width: 600px;
     height: auto;
-    background-color: rgba(54, 54, 54, 0.8);
+    background-color: #2b2b2bbb;
     text-align: center;
     border-radius: 10%;
     padding-bottom: 50px;
-}
-
-@media screen and (max-width:1200px) {
-    #regular-section {
-        max-height: 1800px;
-
-    }
-
-    #regular-nights-grid {
-        row-gap: 40px;
-    }
-
 }
 
 
