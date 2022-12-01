@@ -28,7 +28,7 @@ a:hover {
     color: #008000;
 }
 
-/* headings and logo */
+/* headings and logos */
 h1 {
     font-size: 170%;
 }
@@ -41,7 +41,12 @@ h2 {
     color: #ffa500
 }
 
-#logo {
+
+.small-logo {
+    display: none;
+}
+
+.logos {
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -57,7 +62,7 @@ h2 {
 }
 
 #menu,
-#logo {
+.logos, .mobile-menu {
     line-height: 75px
 }
 
@@ -76,28 +81,26 @@ h2 {
 }
 
 #menu a:hover,
-#mobile-menu a:hover {
+.mobile-menu a:hover {
     border: 2px solid #fafafa;
     color: #fafafa;
 }
 
 #menu .active,
-#mobile-menu .active {
+.mobile-menu .active {
     border: 2px solid #fafafa;
     color: #ffa500;
 }
 
-#mobile-menu {
-    clear: left;
-    float: left;
+.mobile-menu {
+    float: right ;
     list-style-type: none;
-    font-size: 280%;
+    font-size: 180%;
     margin: 1%;
-    padding: 5%;
-    display: block;
+    display: inline;
 }
 
-#mobile-menu li {
+.mobile-menu li {
     float: left;
     margin-right: 30px;
 }
@@ -398,7 +401,7 @@ footer {
 /* Media Queries */
 
 @media screen and (min-width: 600px) {
-    #mobile-menu {
+    .mobile-menu {
         display: none;
     }
 }
@@ -441,12 +444,35 @@ footer {
 
     }
 }
+@media screen and (max-width: 620px) {
 
-@media screen and (max-width: 600px) {
+    .logos {
+        font-size: 260%;
+        margin-left: 10%;
+    }
+
+
+
+    .big-logo {
+        display: none;
+    }
+
+    .small-logo {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: inline;
+    }
+
 
     #menu {
         display: none;
     }
+}
+
+@media screen and (max-width: 600px) {
+
 
     #cover-text {
         left: 10px;
@@ -465,6 +491,20 @@ footer {
     }
 }
 
+@media screen and (max-width: 400px) {
+    header {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    .mobile-menu {
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .home-sections h1 {
         height: 140px;
@@ -473,5 +513,21 @@ footer {
     #link-cards-container {
         margin: 0;
 
+    }
+}
+
+@media screen and (max-width: 350px) {
+    header {
+        justify-content: center;
+    }
+    header ul {
+        padding-inline-start: 0;
+    }
+    header ul li:nth-last-child(1) {
+        margin-right: 0;
+    }
+
+    .logos, .mobile-menu {
+        line-height: 50px
     }
 }
