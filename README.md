@@ -63,8 +63,6 @@ This is due to the desire to prioritize the most key information provided by the
 
 - This page (contact.html) will allow the user to send a message to Limerick Comedy Guide regarding any comments they may have regarding the site subject or whatever they feel is relevant. This could be used theoretically by fans/comedians to inform the site runner of any gigs/venues that have been overlooked. Could be a inital contact point for businesses to reach out about exposure for their comedy nights etc. Increases potential engagement with the site audience.
 
-
-
 ![Contact](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 ### Features Left to Implement
@@ -73,31 +71,40 @@ This is due to the desire to prioritize the most key information provided by the
 
 - A media/Gig Videos page - to showcase videos (available youtube clips embedded) and or images from limerick gigs, to enhance audience interest via givnig samples or providing a repository/collection of Limerick Comedy Gigs. Not enough immediately available (/copyright free) media, at present.
 
+- Backend for contact page that isn't placeholder.
+
 ## Testing
 
 Primary testing through development process was done via Gitpod python server command to host a browser window of the site. Upon saving changes in gitpod, refreshing the relevant browser window to see updated changes live.
 
 Tested to see that changes reflected design intent.
 
-Resizing browser with CTRL-SHIFT-M on firefox to see responsive-mode.
+Resizing browser with CTRL-SHIFT-M on firefox to see responsive-design-mode. Checked down to 320px.
 
-Inspecting any unexpected or hard to diagnose bugs with the inspect source feature.
+Inspecting any unexpected or hard to diagnose bugs with the inspect source feature in firefox.
 
-Result of testing is confirmation that the site layout adapts as designed dynamically based on the screen size.
+Result of testing is:
+    - confirmation that the site layout is as design intended. 
+    - confirmation that the site features are fully functional. 
+    - confirmation that the site layout adapts as designed dynamically based on the screen size.
+    - confirmation that the site content is appropriate to higher organizational goals.
 
-Browesers checked with: Firefox Windows(Desktop 1440p), Firefox Mobile on a Samsung A5 2017
+Browesers checked with: Firefox Windows(Desktop 1440p), Firefox Mobile on a Samsung A5 2017. Virtual Browsers via firefox responsive-design-mode assorted mobiles with small (<500px) screen sizes.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+Am not aware of any outstanding bugs.
 ### Validator Testing
 
 - HTML
 
-- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- 2 warnings were returned when passing through the official [W3C validator For index.html page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flastraeus.github.io%2Flimerick-comedy-guide%2Findex.html).
+
+Heading 1 use as section headings on home page was a stylistic choice which I felt was necessary for the overall look and design for the page. The limited number of sections and priority of this information was deemed acceptable for the priority a screen reader would give those 2 "Heading 1"s.
+
+[W3C validator For comedy-links.html page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flastraeus.github.io%2Flimerick-comedy-guide%2Fcomedy-links.html) - No Errors
+
+
+[W3C validator For contact.html page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flastraeus.github.io%2Flimerick-comedy-guide%2Fcontact.html) - No Errors
+
 
 - CSS
 
