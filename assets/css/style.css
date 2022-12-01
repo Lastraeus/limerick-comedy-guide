@@ -170,7 +170,7 @@ h2 {
 /* Regular Comedy Nights Section */
 
 #regular-section-outer {
-    height: 1200px;
+    height: auto;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -405,7 +405,6 @@ footer {
 
 @media screen and (max-width: 1400px)  {
     #regular-section-outer {
-        height: auto;
     }
 }
 
