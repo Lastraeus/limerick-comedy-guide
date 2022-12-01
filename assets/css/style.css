@@ -105,7 +105,7 @@ h2 {
 /* hero image & text*/
 
 #hero-outer {
-    height: 600px;
+    height: auto;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -169,13 +169,24 @@ h2 {
 
 /* Regular Comedy Nights Section */
 
+#regular-section-outer {
+    height: 1200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 #regular-section {
-    background: url('../images/bar-laugh.jpg') no-repeat center center;
+    background: url('../images/small-audience.jpg') no-repeat 20% 50%;
+    background-color: #967d47;
+    background-blend-mode: screen;
+    background-size: cover;
+    padding-bottom: 5%;
 }
 
 #regular-blurb {
     text-align: center;
-    background: #2b2b2bbb;
+    background: #2b2b2bef;
     font-weight: 600;
     line-height: 160%;
     width: auto;
@@ -392,6 +403,11 @@ footer {
     }
 }
 
+@media screen and (max-width: 1400px)  {
+    #regular-section-outer {
+        height: auto;
+    }
+}
 
 @media screen and (max-width: 1200px) {
     #link-cards-container {
@@ -412,6 +428,11 @@ footer {
 @media screen and (max-width: 800px) {
     .home-sections h1 {
         height: 100px;
+    }
+
+    .home-section-cards {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
 }
