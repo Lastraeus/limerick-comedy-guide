@@ -8,9 +8,13 @@ A secondary goal is to support the Comedy Groups, Venues and most importantly Co
 ## Research
 
 - __User Stories__
+
 Sourced from fellow local Limerick Comedy “aficionados”.
+
 “It can be hard to keep track of all the different places for comedy, I never know what’s on till it’s too late.” – S. M.
+
 “I could really do with a website or app or something that just has all the different comedy. I don’t even know there was anything beyond entertainment.ie and Ticketmaster for the bigger gigs if you don’t already know the local venues.” C. N.
+
 “Limerick really needs something to tie the comedy together, that you can look at if you aren’t networking with other people and learning about the gigs by word of mouth”.  J M
 
 
