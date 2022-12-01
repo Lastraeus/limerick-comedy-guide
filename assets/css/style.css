@@ -205,28 +205,28 @@ h2 {
 }
 
 
-/* Touring Venus */
+/* Upcoming Gigs Section */
 
-#tour-section {
+#upcoming-gigs-section {
     max-height: 1200px;
     aspect-ratio: 4080/2485;
-    /* Based on original image size*/
     background: url('../images/stage.jpg') no-repeat center center;
     background-size: cover;
+    width: auto;
 
 }
 
-#tour-section h1 {
+#upcoming-gigs-section h1 {
     height: 40px;
     text-align: center;
     padding: 30px
 }
 
-#tour-section h2 {
+#upcoming-gigs-section h2 {
     padding: 30px;
 }
 
-#tour-gigs-grid {
+/* #upcoming-gigs-grid {
     margin: auto;
     max-width: 1600px;
     display: grid;
@@ -235,15 +235,24 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
     place-items: center top;
+} */
+
+#upcoming-gigs-grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+gap: 50px;
 }
 
-.tour-boxes {
+.gigs-boxes {
+    max-width: 300px;
     width: auto;
     height: auto;
     background-color: #363636cc;
     text-align: center;
     border-radius: 10%;
     padding-bottom: 50px;
+    
 }
 
 /* footer bar */
