@@ -403,11 +403,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 1400px)  {
-    #regular-section-outer {
-    }
-}
-
 @media screen and (max-width: 1200px) {
     #link-cards-container {
         display: grid;
@@ -441,8 +436,8 @@ footer {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 50px;
-        padding: 50px;
+        margin: 10%;
+        padding: 10%;
 
     }
 }
@@ -458,8 +453,21 @@ footer {
     }
 }
 
+@media screen and (max-width: 420px) {
+    #link-cards-container {
+        margin: 3%;
+        padding: 3%;
+
+    }
+}
+
 @media screen and (max-width: 380px) {
     .home-sections h1 {
         height: 140px;
+    }
+
+    #link-cards-container {
+        margin: 0;
+
     }
 }

@@ -24,7 +24,7 @@ Due to varying screen sizes and associated limitations, these buttons will alter
 
 - __The landing page Cover Image__
 
-- The initial landing page includes a "hero" image, with a cover text. This cover text gives the user a indication of the sites function and hopefully helps to set a more jovial tone given that this is a website revolving around Comedy.
+- The initial landing page (index.html) includes a "hero" image, with a cover text. This cover text gives the user a indication of the sites function and hopefully helps to set a more jovial tone given that this is a website revolving around Comedy.
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
@@ -53,7 +53,7 @@ This is due to the desire to prioritize the most key information provided by the
 
 - __Comedy Links__
 
-- The Comedy Links Directory page is primarily a curated list of previously disparate links to do with booking and keeping abreast any comedy gigs in Limerick City.
+- The Comedy Links Directory page (comedy-links.html) is primarily a curated list of previously disparate links to do with booking and keeping abreast any comedy gigs in Limerick City.
 
 - This section would ideally be bookmarked by users for easy access, whenever they want to peruse what's on in Limerick in the Stand-up/Comedy sphere.
 
@@ -61,23 +61,31 @@ This is due to the desire to prioritize the most key information provided by the
 
 - __The Contact Page__
 
-- This page will allow the user to send a message to Limerick Comedy Guide regarding any comments they may have regarding the site subject or whatever they feel is relevant.
+- This page (contact.html) will allow the user to send a message to Limerick Comedy Guide regarding any comments they may have regarding the site subject or whatever they feel is relevant. This could be used theoretically by fans/comedians to inform the site runner of any gigs/venues that have been overlooked. Could be a inital contact point for businesses to reach out about exposure for their comedy nights etc. Increases potential engagement with the site audience.
 
 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Contact](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- Possibility to automate some section of the upcoming gig listings sections, sourcing from the linked pages via automated web-scraping script. Can revist with additional python experience etc.
+
+- A media/Gig Videos page - to showcase videos (available youtube clips embedded) and or images from limerick gigs, to enhance audience interest via givnig samples or providing a repository/collection of Limerick Comedy Gigs. Not enough immediately available (/copyright free) media, at present.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Primary testing through development process was done via Gitpod python server command to host a browser window of the site. Upon saving changes in gitpod, refreshing the relevant browser window to see updated changes live.
+
+Tested to see that changes reflected design intent.
+
+Resizing browser with CTRL-SHIFT-M on firefox to see responsive-mode.
+
+Inspecting any unexpected or hard to diagnose bugs with the inspect source feature.
+
+Result of testing is confirmation that the site layout adapts as designed dynamically based on the screen size.
+
+Browesers checked with: Firefox Windows(Desktop 1440p), Firefox Mobile on a Samsung A5 2017
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
