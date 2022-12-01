@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Limerick Comedy Guide</title>
 </head>
+
 <body>
     <header>
         <a href="index.html">
-        <h1 id="logo">
-            Limerick Comedy Guide
-        </h1>
+            <h1 id="logo">
+                Limerick Comedy Guide
+            </h1>
         </a>
         <nav>
             <ul id="menu">
@@ -29,11 +31,22 @@
                     <a href="index.html">Home</a>
                 </li>
             </ul>
+            <ul id="mobile-menu">
+                <li>
+                    <a href="contact.html"><i class="fa-regular fa-message"></i></a>
+                </li>
+                <li>
+                    <a href="comedy-links.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa-solid fa-house"></i></a>
+                </li>
+            </ul>
         </nav>
     </header>
     <section class="contact-section">
         <!-- form goes nowhere due to scope of project -->
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form"> 
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
             <h2>Have any questions, or maybe you want to tell me a joke?</h2>
             <label for="fname">First Name</label>
             <input id="fname" name="first_name" type="text" required class="text-input">
@@ -43,7 +56,8 @@
             <input id="email" name="email_address" type="email" required class="text-input">
 
             <label for="message">Your Message</label>
-            <textarea name="message" id="message" placeholder="Come on, be nice." rows="10" cols="40" class="textarea-input text-input"></textarea>
+            <textarea name="message" id="message" placeholder="Come on, be nice." rows="10" cols="40"
+                class="textarea-input text-input"></textarea>
 
             <p>Wouldn't mind pre-warning me what this is would you?</p>
             <br>
@@ -63,7 +77,7 @@
             <label for="nope">No Hints! - You'll have to see</label>
 
             <br>
-            
+
             <input type="submit" value="Fire Away!" class="fire-away-button">
         </form>
     </section>
@@ -71,15 +85,18 @@
         <ul class="social-links">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page to stand in awe of Mr Zuckerberg (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+                    aria-label="Visit our Facebook page to stand in awe of Mr Zuckerberg (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a>
             </li>
             <li>
                 <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page to see Elon Musk in action(opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                    aria-label="Visit our Twitter page to see Elon Musk in action(opens in a new tab)"><i
+                        class="fab fa-twitter-square"></i></a>
             </li>
             <li>
                 <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab) to escape this reality"><i class="fab fa-youtube-square"></i></a>
+                    aria-label="Visit our YouTube page (opens in a new tab) to escape this reality"><i
+                        class="fab fa-youtube-square"></i></a>
             </li>
         </ul>
     </footer>
@@ -87,4 +104,5 @@
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/ae0900deec.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

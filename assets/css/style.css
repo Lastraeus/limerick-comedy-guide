@@ -75,14 +75,31 @@ h2 {
     font-weight: 600;
 }
 
-#menu a:hover {
+#menu a:hover,
+#mobile-menu a:hover {
     border: 2px solid #fafafa;
     color: #fafafa;
 }
 
-#menu .active {
+#menu .active,
+#mobile-menu .active {
     border: 2px solid #fafafa;
-    color: orange;
+    color: #ffa500;
+}
+
+#mobile-menu {
+    clear: left;
+    float: left;
+    list-style-type: none;
+    font-size: 280%;
+    margin: 1%;
+    padding: 5%;
+    display: block;
+}
+
+#mobile-menu li {
+    float: inline-end;
+    margin-right: 30px;
 }
 
 /* hero image & text*/
@@ -258,7 +275,7 @@ footer {
     background: url('../images/mic-pass.jpg');
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    height: 1200px;
 }
 
 .contact-form {
@@ -376,15 +393,28 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 1200px) {
+@media screen and (min-width: 600px) {
+    #mobile-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
     #link-cards-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 50px;
     }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     #link-cards-container {
         display: flex;
         flex-direction: column;
@@ -392,5 +422,9 @@ footer {
         margin: 50px;
         padding: 50px;
 
+    }
+
+    #menu {
+        display: none;
     }
 }
