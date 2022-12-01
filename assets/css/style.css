@@ -157,8 +157,15 @@ h2 {
 .home-sections {
     margin: 0 auto;
     background-size: cover;
+    
 }
 
+.home-sections h1 {
+    height: 40px;
+    text-align: center;
+    padding: 30px;
+    background: #000000;
+}
 /* Regular Comedy Nights Section */
 
 #regular-section {
@@ -174,13 +181,6 @@ h2 {
     height: auto;
     padding: 20px;
     margin-bottom: 30px;
-}
-
-#regular-section h1 {
-    height: 40px;
-    text-align: center;
-    padding: 30px;
-    background: #000000;
 }
 
 #regular-section h2 {
@@ -216,15 +216,8 @@ h2 {
     width: auto;
 }
 
-#upcoming-gigs-section h1 {
-    height: 40px;
-    text-align: center;
-    padding: 30px;
-    background: #000000;
-}
-
 #upcoming-gigs-section h2 {
-    padding: 30px;
+    padding: 5%;
 }
 
 #upcoming-gigs-grid {
@@ -415,6 +408,13 @@ footer {
 
 }
 
+@media screen and (max-width: 800px) {
+    .home-sections h1{
+        height: 100px;
+    }
+
+}
+
 @media screen and (max-width: 700px) {
     #link-cards-container {
         display: flex;
@@ -435,4 +435,11 @@ footer {
     #cover-text {
         left: 10px;
     }
+}
+
+@media screen and (max-width: 380px) {
+    .home-sections h1{
+        height: 140px;
+    }
+
 }
