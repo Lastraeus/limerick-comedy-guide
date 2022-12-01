@@ -156,14 +156,13 @@ h2 {
 
 .home-sections {
     margin: 0 auto;
+    background-size: cover;
 }
 
 /* Regular Comedy Nights Section */
 
 #regular-section {
     background: url('../images/bar-laugh.jpg') no-repeat center center;
-    background-size: cover;
-
 }
 
 #regular-blurb {
@@ -207,18 +206,15 @@ h2 {
 /* Upcoming Gigs Section */
 
 #upcoming-gigs-section {
-    max-height: 1200px;
-    aspect-ratio: 4080/2485;
-    background: url('../images/stage.jpg') no-repeat center center;
-    background-size: cover;
+    background: url('../images/stage.jpg') no-repeat left bottom;
     width: auto;
-
 }
 
 #upcoming-gigs-section h1 {
     height: 40px;
     text-align: center;
-    padding: 30px
+    padding: 30px;
+    background: #000000;
 }
 
 #upcoming-gigs-section h2 {
@@ -412,7 +408,7 @@ footer {
     }
 
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     #link-cards-container {
         display: flex;
         flex-direction: column;
@@ -421,6 +417,8 @@ footer {
         padding: 50px;
 
     }
+}
+@media screen and (max-width: 600px) {
 
     #menu {
         display: none;
