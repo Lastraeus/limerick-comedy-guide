@@ -13,7 +13,7 @@ Sourced from fellow local Limerick Comedy “aficionados”.
 
 “It can be hard to keep track of all the different places for comedy, I never know what’s on till it’s too late.” – S. M.
 
-“I could really do with a website or app or something that just has all the different comedy. I don’t even know there was anything beyond entertainment.ie and Ticketmaster for the bigger gigs if you don’t already know the local venues.” C. N.
+“I could really do with a website or app or something that just has all the different comedy. I didn't even know there was anything beyond entertainment.ie and Ticketmaster for the bigger gigs if you don’t already know the local venues.” C. N.
 
 “Limerick really needs something to tie the comedy together, that you can look at if you aren’t networking with other people and learning about the gigs by word of mouth”.  J M
 
@@ -21,7 +21,7 @@ Sourced from fellow local Limerick Comedy “aficionados”.
 
 ## Features
 
-As of latest version Limerick Comedy Guide is a three page website divided between a home page (index.html) to introduce users to the site and to get straight into highlighting the most pertinent information one would need in general to get comedy fans sitting in front of the stage. This includes;
+As of the latest version, Limerick Comedy Guide is a three page website divided between a home page (index.html) to introduce users to the site and to get straight into highlighting the most pertinent information one would need, in general, to get comedy fans sitting in front of the stage. This includes;
 
 ### Existing Features
 
@@ -33,20 +33,20 @@ This feature allows the user to confidently navigate the website and allows the 
 
 Due to varying screen sizes and associated limitations, these buttons will alternate between Icons and text-buttons dynamically depending on the screen width.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar]()
 
 - __The landing page Cover Image__
 
 - The initial landing page (index.html) includes a "hero" image, with a cover text. This cover text gives the user a indication of the sites function and hopefully helps to set a more jovial tone given that this is a website revolving around Comedy.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page]()
 
 - __Regular Comedy Nights Section__
 
 - The Regular Comedy Nights Section will be the first section the user scrolls down to from the header.
 This is due to the desire to prioritize the most key information provided by the site; where one can reliably find comedy gigs within the confines of Limerick City. Given their reliable monthly frequency they are by far the most approachable yet overlooked way to see stand-up comedy in Limerick.
 
-![Regular Comedy Gigs](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Regular Comedy Gigs]()
 
 - __Upcoming Gigs Section__
 
@@ -54,7 +54,7 @@ This is due to the desire to prioritize the most key information provided by the
 
 - This section could be updated periodically to keep the content fresh.
 
-![Featured Gigs](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Featured Gigs]()
 
 - __The Footer__
 
@@ -62,7 +62,7 @@ This is due to the desire to prioritize the most key information provided by the
 
 - This would hopefully allow the user to keep engaged with the overall Limerick Comedy Guide initative and goals.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer]()
 
 - __Comedy Links__
 
@@ -70,13 +70,13 @@ This is due to the desire to prioritize the most key information provided by the
 
 - This section would ideally be bookmarked by users for easy access, whenever they want to peruse what's on in Limerick in the Stand-up/Comedy sphere.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery]()
 
 - __The Contact Page__
 
 - This page (contact.html) will allow the user to send a message to Limerick Comedy Guide regarding any comments they may have regarding the site subject or whatever they feel is relevant. This could be used theoretically by fans/comedians to inform the site runner of any gigs/venues that have been overlooked. Could be a inital contact point for businesses to reach out about exposure for their comedy nights etc. Increases potential engagement with the site audience.
 
-![Contact](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Contact]()
 
 ### Features Left to Implement
 
