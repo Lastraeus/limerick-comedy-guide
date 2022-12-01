@@ -203,10 +203,16 @@ h2 {
     padding: 2rem;
 }
 
+.regular-night-boxes p a {
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 160%;
+}
+
 /* Upcoming Gigs Section */
 
 #upcoming-gigs-section {
-    background: url('../images/stage.jpg') no-repeat left bottom;
+    background: url('../images/orange-stage.jpg') no-repeat center;
     width: auto;
 }
 
@@ -222,10 +228,10 @@ h2 {
 }
 
 #upcoming-gigs-grid {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
 }
 
 .gigs-boxes {
@@ -236,7 +242,7 @@ gap: 50px;
     text-align: center;
     border-radius: 10%;
     padding-bottom: 50px;
-    
+
 }
 
 /* footer bar */
@@ -408,6 +414,7 @@ footer {
     }
 
 }
+
 @media screen and (max-width: 700px) {
     #link-cards-container {
         display: flex;
@@ -418,6 +425,7 @@ footer {
 
     }
 }
+
 @media screen and (max-width: 600px) {
 
     #menu {
