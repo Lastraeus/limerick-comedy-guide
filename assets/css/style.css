@@ -98,7 +98,7 @@ h2 {
 }
 
 #mobile-menu li {
-    float: inline-end;
+    float: left;
     margin-right: 30px;
 }
 
