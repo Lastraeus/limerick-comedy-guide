@@ -5,6 +5,15 @@ Limerick Comedy Guide is a website that aims to make it easy for Stand-up Comedy
 
 A secondary goal is to support the Comedy Groups, Venues and most importantly Comedians that provide the gigs that users of the site would give their patronage to, given sufficient awareness.
 
+## Research
+
+- __User Stories__
+Sourced from fellow local Limerick Comedy “aficionados”.
+“It can be hard to keep track of all the different places for comedy, I never know what’s on till it’s too late.” – S. M.
+“I could really do with a website or app or something that just has all the different comedy. I don’t even know there was anything beyond entertainment.ie and Ticketmaster for the bigger gigs if you don’t already know the local venues.” C. N.
+“Limerick really needs something to tie the comedy together, that you can look at if you aren’t networking with other people and learning about the gigs by word of mouth”.  J M
+
+
 
 ## Features
 
@@ -91,7 +100,6 @@ Result of testing is:
 
 Browesers checked with: Firefox Windows(Desktop 1440p), Firefox Mobile on a Samsung A5 2017. Virtual Browsers via firefox responsive-design-mode assorted mobiles with small (<500px) screen sizes.
 
-Am not aware of any outstanding bugs.
 ### Validator Testing
 
 - HTML
@@ -108,44 +116,56 @@ Heading 1 use as section headings on home page was a stylistic choice which I fe
 
 - CSS
 
-- No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) - Code was maunally copied from css file for direct input submission.
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+I am currently not aware of any outstanding bugs. The paucity of features was due to this project scope and the early stage of my coding experience.
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 - In the GitHub repository, navigate to the Settings tab
 
-- From the source section drop-down menu, select the Master Branch
+- Navigate to the pages tab. https://github.com/Lastraeus/limerick-comedy-guide/settings/pages
 
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://lastraeus.github.io/limerick-comedy-guide/
 
 ## Credits
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
 ### Content
 
-- The text for the Home page was taken from Wikipedia Article A
+- Refferences for dates and other details of upcoming gigs were sourced directly from all links showcased on the site.
+- Blurbs for gigs and all other misc text was written by me.
 
-- Background image blend mode tutorial from  [Keep Coding Youtube](https://www.youtube.com/watch?v=wfaDzSL6ll0&list=WL&index=5)
+- Background image blend mode tutorial from  [Keep Coding Youtube](https://www.youtube.com/watch?v=wfaDzSL6ll0) used on Regular Gigs Section.
 
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Grids Tutorial for comedy-links page from [Envatotuts on youtube](https://www.youtube.com/watch?v=XHCMvEfFp2I) used on comedy-links page.
+
+- Flexbox Tutorial for index page from [Envatotuts on youtube](https://www.youtube.com/watch?v=t_I4HWMEtyw) used on index page.
+
+- The icons used in the Nav Bar, Footer and Social Media Links are from [Font Awesome](https://fontawesome.com/)
+
+- [Code Institure - Love Running Example Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/7f2597d68d214acab1fe134e40ad3a9c/w) used for overall guidance and structure to the project/README etc.
+
+- Misc reference for many property settings
+https://www.w3schools.com/css/
+
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
+- The photos used on the home and sign up page are from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/)
 
-- The images used for the gallery page were taken from this other open source site
+hero.jpg                https://www.pexels.com/photo/close-up-photography-of-microphone-144429/
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+mic-pass.jpg            https://www.pexels.com/photo/hand-metal-music-musician-33779/
+
+orange-mic.jpg          https://unsplash.com/photos/zoG585VYsV8
+
+orange-stage.jpg        https://www.pexels.com/photo/microphone-stand-on-the-dark-stage-6324813/
+
+small-audience.jpg      https://www.pexels.com/photo/people-sitting-on-chairs-clapping-12432817/
