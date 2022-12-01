@@ -146,10 +146,10 @@ h2 {
     width: 400px;
     height: 300px;
     padding-top: 60px;
-    padding: left 10px;
+    padding-left: 10px;
     top: 30px;
     left: 150px;
-    position: absolute
+    position: absolute;
 }
 
 /* generic section styles */
@@ -204,7 +204,6 @@ h2 {
     padding: 2rem;
 }
 
-
 /* Upcoming Gigs Section */
 
 #upcoming-gigs-section {
@@ -225,17 +224,6 @@ h2 {
 #upcoming-gigs-section h2 {
     padding: 30px;
 }
-
-/* #upcoming-gigs-grid {
-    margin: auto;
-    max-width: 1600px;
-    display: grid;
-    row-gap: 50px;
-    column-gap: 400px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
-    place-items: center top;
-} */
 
 #upcoming-gigs-grid {
 display: flex;
@@ -408,6 +396,7 @@ footer {
     }
 }
 
+
 @media screen and (max-width: 1200px) {
     #link-cards-container {
         display: grid;
@@ -421,8 +410,8 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
     }
-}
 
+}
 @media screen and (max-width: 600px) {
     #link-cards-container {
         display: flex;
@@ -435,5 +424,9 @@ footer {
 
     #menu {
         display: none;
+    }
+
+    #cover-text {
+        left: 10px;
     }
 }
