@@ -459,6 +459,10 @@ footer {
         padding: 3%;
 
     }
+
+    #cover-text {
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 380px) {
