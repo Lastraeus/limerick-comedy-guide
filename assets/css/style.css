@@ -157,7 +157,7 @@ h2 {
 .home-sections {
     margin: 0 auto;
     background-size: cover;
-    
+
 }
 
 .home-sections h1 {
@@ -166,6 +166,7 @@ h2 {
     padding: 30px;
     background: #000000;
 }
+
 /* Regular Comedy Nights Section */
 
 #regular-section {
@@ -409,7 +410,7 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-    .home-sections h1{
+    .home-sections h1 {
         height: 100px;
     }
 
@@ -438,8 +439,7 @@ footer {
 }
 
 @media screen and (max-width: 380px) {
-    .home-sections h1{
+    .home-sections h1 {
         height: 140px;
     }
-
 }
