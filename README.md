@@ -7,7 +7,7 @@ A secondary goal is to support the Comedy Groups, Venues and most importantly Co
 
 ## Research
 
-- __User Stories__
+__Audience Stories__
 
 Sourced from fellow local Limerick Comedy “aficionados”.
 
@@ -21,70 +21,112 @@ Sourced from fellow local Limerick Comedy “aficionados”.
 
 ## Features
 
-As of the latest version, Limerick Comedy Guide is a three page website divided between a home page (index.html) to introduce users to the site and to get straight into highlighting the most pertinent information one would need, in general, to get comedy fans sitting in front of the stage. This includes;
+As of the latest version, Limerick Comedy Guide is a four page website divided between;
 
-### Existing Features
+1. __Homepage__ (index.html) to introduce users to the site and to get straight into highlighting the most pertinent information one would need, in general, to get comedy fans sitting in front of the stage. This includes;
 
-- __Navigation Bar__
+    * An Animated Hero Image
 
-- Featured on all three pages there is a full responsive navigation bar. This includes a home page link on the top logo and three separate button links displayed together at the top of the screen near the logo. These links are; Home page, Comedy-Links and Contact. These are the same on each page for easier more-intuitive navigation.
+    * "A Regular Comedy Nights In Limerick City" Section
 
-This feature allows the user to confidently navigate the website and allows the avoidance of using the back button, thereby enhancing the users experience.
-
-Due to varying screen sizes and associated limitations, these buttons will alternate between Icons and text-buttons dynamically depending on the screen width.
-
-![Nav Bar]()
-
-- __The landing page Cover Image__
-
-- The initial landing page (index.html) includes a "hero" image, with a cover text. This cover text gives the user a indication of the sites function and hopefully helps to set a more jovial tone given that this is a website revolving around Comedy.
+    * "A Featured Gigs" Section
 
 ![Landing Page]()
 
-- __Regular Comedy Nights Section__
+2. __Comedy Links__ a Directory/External link page (comedy-links.html) to introduce users to the site and to get straight into highlighting the most pertinent information one would need, in general, to get comedy fans sitting in front of the stage. This includes;
 
-- The Regular Comedy Nights Section will be the first section the user scrolls down to from the header.
-This is due to the desire to prioritize the most key information provided by the site; where one can reliably find comedy gigs within the confines of Limerick City. Given their reliable monthly frequency they are by far the most approachable yet overlooked way to see stand-up comedy in Limerick.
+    * The Comedy Links Directory page (comedy-links.html) is primarily a curated list of previously disparate links to do with booking and keeping abreast any comedy gigs in Limerick City.
 
-![Regular Comedy Gigs]()
+    * This section would ideally be bookmarked by users for easy access, whenever they want to peruse what's on in Limerick in the Stand-up/Comedy sphere.
 
-- __Upcoming Gigs Section__
+![Comedy Links]()
 
-- This section will allow the user to see a curated list of upcoming Comedy Gigs in Limerick, with direct booking links for the user's convienience if they want to book one of the highlighted gigs.
+3. __Contact Page__ This page (contact.html) will allow the user to send a message to Limerick Comedy Guide regarding any comments they may have regarding the site subject or whatever they feel is relevant. This could be used theoretically;
 
-- This section could be updated periodically to keep the content fresh.
+    * by fans/comedians to inform the site runner of any gigs/venues that have been overlooked.
+    
+    * As an inital contact point for businesses to reach out about exposure for their comedy nights etc.
+    
+    * To increase potential engagement with the site audience.
+    
+Currently forms submitted simply redirect the user to a placeholder confirmation page. See next section regarding same.
+![Contact page]()
 
-![Featured Gigs]()
+4. __Confirmation Page__ This page (confirmation.html) is currently where forms submitted on the contact.html page redirect redirect to. It provides a message to acknoledge the users action. This keeps the user on-site while using/testing the Contact Form.
 
-- __The Footer__
+![Confirmation Page]()
 
-- The footer section includes (fictional) links to the relevant social media sites for Limerick Comedy Club. The links will open to a new tab to allow easy navigation for the user.
+### __Existing Features__
 
-- This would hopefully allow the user to keep engaged with the overall Limerick Comedy Guide initative and goals.
+- __Navigation Bar__
 
-![Footer]()
+    Featured on all pages there is a full responsive navigation bar. This includes a home page link on the top logo and three separate button links displayed together at the top of the screen near the logo. These links are;
 
-- __Comedy Links__
+    * Home page
+    * Comedy-Links
+    * Contact. 
 
-- The Comedy Links Directory page (comedy-links.html) is primarily a curated list of previously disparate links to do with booking and keeping abreast any comedy gigs in Limerick City.
+    These are the same on each page for easier more-intuitive navigation.
 
-- This section would ideally be bookmarked by users for easy access, whenever they want to peruse what's on in Limerick in the Stand-up/Comedy sphere.
+    This feature allows the user to confidently navigate the website and allows the avoidance of using the back button, thereby enhancing the users experience.
 
-![Gallery]()
+    Due to varying screen sizes and associated limitations, these buttons will alternate between Icons and text-buttons dynamically depending on the screen width. The Main Logo will also adjust to Initials instead of words depending on available space.
 
-- __The Contact Page__
+    ![Nav Bar]()
 
-- This page (contact.html) will allow the user to send a message to Limerick Comedy Guide regarding any comments they may have regarding the site subject or whatever they feel is relevant. This could be used theoretically by fans/comedians to inform the site runner of any gigs/venues that have been overlooked. Could be a inital contact point for businesses to reach out about exposure for their comedy nights etc. Increases potential engagement with the site audience.
+- __The Landing Page Cover Image__
 
-![Contact]()
+    The initial landing/home page (index.html) includes a "hero" image, with a cover text. The image is animated for the first few seconds upon loading the site, creating a pleasing zoom effect.
+
+    The cover text gives the user a indication of the sites function and hopefully helps to set a more jovial tone given that this is a website revolving around Comedy.
+
+    This Cover image is also reused on the confirmation.html page.
+
+    ![Cover Image]()
+
+__Regular Comedy Nights Section__
+    
+    The Regular Comedy Nights Section will be the first section the user scrolls down to from the header.
+    This is due to the desire to prioritize the most key information provided by the site; where one can reliably find comedy gigs within the confines of Limerick City. Given their reliable monthly frequency they are by far the most approachable yet overlooked way to see stand-up comedy in Limerick.
+
+    ![Regular Comedy Gigs]()
+
+__Upcoming Gigs Section__
+
+    This section will allow the user to see a curated list of upcoming Comedy Gigs in Limerick, with direct booking links for the user's convienience if they want to book one of the highlighted gigs.
+
+    This section could be updated periodically to keep the content fresh.
+
+    ![Featured Gigs]()
+
+__The Footer__
+
+    The footer section includes (fictional) links to the relevant social media sites for Limerick Comedy Club. The links will open to a new tab to allow easy navigation for the user.
+
+    This would hopefully allow the user to keep engaged with the overall Limerick Comedy Guide initative and goals.
+
+    ![Footer]()
+
+__The Wrapping Grid Column(s) of Comedy-Links AKA The Directory__
+
+
+
+![Card Grid]()
+
+__The Custom Google Map of Limerick Comedy Venues__
+
+
+
+![Map]()
+![Map-Icon-mode]()
+
+
 
 ### Features Left to Implement
 
 - Possibility to automate some section of the upcoming gig listings sections, sourcing from the linked pages via automated web-scraping script. Can revist with additional python experience etc.
 
 - A media/Gig Videos page - to showcase videos (available youtube clips embedded) and or images from limerick gigs, to enhance audience interest via givnig samples or providing a repository/collection of Limerick Comedy Gigs. Not enough immediately available (/copyright free) media, at present.
-
-- Backend for contact page that isn't placeholder.
 
 ## Testing
 
@@ -94,7 +136,7 @@ Tested to see that changes reflected design intent.
 
 Resizing browser with CTRL-SHIFT-M on firefox to see responsive-design-mode. Checked down to 320px.
 
-Inspecting any unexpected or hard to diagnose bugs with the inspect source feature in firefox.
+Inspecting any unexpected or hard to diagnose bugs with the inspect source feature in firefox/chrome.
 
 Result of testing is:
     - confirmation that the site layout is as design intended. 
@@ -102,11 +144,16 @@ Result of testing is:
     - confirmation that the site layout adapts as designed dynamically based on the screen size.
     - confirmation that the site content is appropriate to higher organizational goals.
 
-Browesers checked with: Firefox Windows(Desktop 1440p), Firefox Mobile on a Samsung A5 2017. Virtual Browsers via firefox responsive-design-mode assorted mobiles with small (<500px) screen sizes.
+Browsers checked with: 
+* Firefox (Windows Desktop 1440p)
+* Chrome (windows Desktop 1440p)
+* Firefox Mobile on a Samsung A5 2017
+* Virtual Browsers via firefox responsive-design-mode assorted mobiles with small (<500px) screen sizes.
+* Virtual Browsers via Chrome responsive-design-mode assorted mobiles down to extremely small (280px) screen size. (Galaxy Fold)
 
 ### Validator Testing
 
-- HTML
+HTML
 
 - 2 warnings were returned when passing through the official [W3C validator For index.html page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flastraeus.github.io%2Flimerick-comedy-guide%2Findex.html).
 
