@@ -496,6 +496,11 @@ map-section iframe {
     #cover-text {
         width: auto;
     }
+
+    .home-section-cards {
+        max-width: none;
+        margin: 0 5% 0 5%;
+    }
 }
 
 @media screen and (max-width: 400px) {
