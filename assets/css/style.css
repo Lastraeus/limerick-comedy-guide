@@ -387,8 +387,8 @@ footer {
     background: #000000;
 }
 
-map-section iframe {
-    width: 80%;
+.map-section iframe {
+    width: 75%;
     aspect-ratio: 1/1;
 }
 

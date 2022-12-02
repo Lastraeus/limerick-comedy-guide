@@ -31,7 +31,7 @@ As of the latest version, Limerick Comedy Guide is a four page website divided b
 
     * "A Featured Gigs" Section
 
-![Index Page]()
+![Index Page](docs/readme-images/index.html.png "Landing/Home Page")
 
 2. __Comedy Links__ a Directory/External link page (comedy-links.html) to introduce users to the site and to get straight into highlighting the most pertinent information one would need, in general, to get comedy fans sitting in front of the stage. This includes;
 
@@ -39,7 +39,7 @@ As of the latest version, Limerick Comedy Guide is a four page website divided b
 
     * This section would ideally be bookmarked by users for easy access, whenever they want to peruse what's on in Limerick in the Stand-up/Comedy sphere.
 
-![Comedy Links]()
+![Comedy Links](docs/readme-images/comedy-links.html.png "Comedy Links/Directory Page")
 
 3. __Contact Page__ This page (contact.html) will allow the user to send a message to Limerick Comedy Guide regarding any comments they may have regarding the site subject or whatever they feel is relevant. This could be used theoretically;
 
@@ -50,11 +50,11 @@ As of the latest version, Limerick Comedy Guide is a four page website divided b
     * To increase potential engagement with the site audience.
     
 Currently forms submitted simply redirect the user to a placeholder confirmation page. See next section regarding same.
-![Contact page]()
+![Contact page](docs/readme-images/contact.html.png "Contact Page")
 
 4. __Confirmation Page__ This page (confirmation.html) is currently where forms submitted on the contact.html page redirect redirect to. It provides a message to acknoledge the users action. This keeps the user on-site while using/testing the Contact Form.
 
-![Confirmation Page]()
+![Confirmation Page](docs/readme-images/confirmation.html.png "Confirmation Page")
 
 ### __Existing Features__
 
@@ -72,7 +72,11 @@ Currently forms submitted simply redirect the user to a placeholder confirmation
 
     Due to varying screen sizes and associated limitations, these buttons will alternate between Icons and text-buttons dynamically depending on the screen width. The Main Logo will also adjust to Initials instead of words depending on available space.
 
-    ![Nav Bar]()
+    ![Nav Bar Main](docs/readme-images/nav-bar-main.png "Nav Bar main wide desktop version")
+
+    ![Nav Bar Main](docs/readme-images/nav-bar-medium.png "Nav Bar Tablet/Mid Version")
+
+    ![Nav Bar Main](docs/readme-images/nav-bar-small-icons.png "Nav Bar Smartphone Version")
 
 - __The Landing Page Cover Image__
 
@@ -82,43 +86,50 @@ Currently forms submitted simply redirect the user to a placeholder confirmation
 
     This Cover image is also reused on the confirmation.html page.
 
-    ![Cover Image]()
+    ![Cover Image](docs/readme-images/nav-bar-main.png)
 
 __Regular Comedy Nights Section__
     
-    The Regular Comedy Nights Section will be the first section the user scrolls down to from the header.
-    This is due to the desire to prioritize the most key information provided by the site; where one can reliably find comedy gigs within the confines of Limerick City. Given their reliable monthly frequency they are by far the most approachable yet overlooked way to see stand-up comedy in Limerick.
+The Regular Comedy Nights Section will be the first section the user scrolls down to from the header.
+This is due to the desire to prioritize the most key information provided by the site; where one can reliably find comedy gigs within the confines of Limerick City. Given their reliable monthly frequency they are by far the most approachable yet overlooked way to see stand-up comedy in Limerick.
 
-    ![Regular Comedy Gigs]()
+![Regular Comedy Gigs](docs/readme-images/regular-gigs-main.png "Regular Gigs main wide desktop version")
+
+![Regular Comedy Gigs](docs/readme-images/regular-gigs-smartphone.png "Regular Gigs smartphone Version")
 
 __Upcoming Gigs Section__
 
-    This section will allow the user to see a curated list of upcoming Comedy Gigs in Limerick, with direct booking links for the user's convienience if they want to book one of the highlighted gigs.
+This section will allow the user to see a curated list of upcoming Comedy Gigs in Limerick, with direct booking links for the user's convienience if they want to book one of the highlighted gigs.
 
-    This section could be updated periodically to keep the content fresh.
+This section could be updated periodically to keep the content fresh.
 
-    ![Featured Gigs]()
+![Featured Gigs](docs/readme-images/upcoming-gigs-and-footer.png "Upcoming Gigs And Footer")
 
 __The Footer__
 
-    The footer section includes (fictional) links to the relevant social media sites for Limerick Comedy Club. The links will open to a new tab to allow easy navigation for the user.
+The footer section includes (fictional) links to the relevant social media sites for Limerick Comedy Club. The links will open to a new tab to allow easy navigation for the user.
 
-    This would hopefully allow the user to keep engaged with the overall Limerick Comedy Guide initative and goals.
+This would hopefully allow the user to keep engaged with the overall Limerick Comedy Guide initative and goals.
 
-    ![Footer]()
+See above image.
 
 __The Wrapping Grid Column(s) of Comedy-Links AKA The Directory__
+A useful repository of different links relating to attending Stand-up Comedy Gigs in Limerick.
+
+Three columns reduce to two and then one responsively as the screen size decreases.
 
 
+![Card Grid](docs/readme-images/venue-directory-wide.png "Directory wide desktop version")
 
-![Card Grid]()
+![Card Grid](docs/readme-images/venue-directory-medium.png "Directory medium width version")
+
+![Card Grid](docs/readme-images/venue-directory-small.png "Directory small version")
 
 __The Custom Google Map of Limerick Comedy Venues__
+A custom made google map, that provides the user with a grasp on the geography of Limerick Comedy. Also facilitates them actually finding/arriving at gigs sucessfully.
 
-
-
-![Map]()
-![Map-Icon-mode]()
+![Map](docs/readme-images/map-wide.png "Embedded Google map desktop version")
+![Map-Icon-mode](docs/readme-images/map-small-icon.png "Embedded Google map small smartphone version")
 
 
 
@@ -173,6 +184,8 @@ __CSS__
 ### Fixed Bugs
 A non-exhaustive list of fixed bugs:
 
+* Taking a full page screenshot on both chrome and firefox of the comedy-links.html page causes (different on each) graphical glitches to appear in the image. I believe it has something to do with the google map embedded in the page. Please note that the prior images were taken directly on the existing code, which runs fine by my testing in both browsers, other than with full-page screenshots including the map.
+
 * The Logo and Nav elements were running out of space on smaller screen sizes. This led to the necessity of making a more compact version of the header. IE the menu icon-version and logo Initials-version.
 
 * Invisible text in the text inputs on contact page. Solved by correcting the text color away from white.
@@ -183,7 +196,7 @@ A non-exhaustive list of fixed bugs:
 
 ### Unfixed Bugs
 
-I encounterd a bug on contact.html, with the textarea message box. When you resize the box to a small width, the box goes out of original alignment/position, with the lable dropping to the bottom left of it.
+I encounterd a bug on contact.html, with the textarea message box. When you resize the box to a small width, the box goes out of original alignment/position, with the label dropping to the bottom left of it.
 
 ## Deployment
 The site was developed using Gitpods Browser Workspace. This was done by:
