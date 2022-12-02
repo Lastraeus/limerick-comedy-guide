@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     border: none;
-
 }
 
 body {
@@ -18,7 +17,6 @@ body {
 p {
     font-size: 120%;
 }
-
 
 hr {
     border-top: 1px solid #ffa500;
@@ -274,7 +272,6 @@ footer {
 }
 
 /* contact form */
-
 .contact-section {
     clear: left;
     background: url('../images/mic-pass.jpg');
@@ -444,13 +441,10 @@ map-section iframe {
 }
 
 @media screen and (max-width: 620px) {
-
     .logos {
         font-size: 260%;
         margin-left: 10%;
     }
-
-
 
     .big-logo {
         display: none;
@@ -488,7 +482,6 @@ map-section iframe {
     #link-cards-container {
         margin: 3%;
         padding: 3%;
-
     }
 
     #cover-text {
@@ -517,7 +510,6 @@ map-section iframe {
 
     #link-cards-container {
         margin: 0;
-
     }
 }
 
@@ -538,6 +530,4 @@ map-section iframe {
     .mobile-menu {
         line-height: 50px
     }
-
-
 }

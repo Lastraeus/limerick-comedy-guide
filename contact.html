@@ -14,6 +14,7 @@
 
 <body>
     <header>
+        <!-- Logo/Home Button -->
         <a href="index.html" class="big-logo">
             <h1 class="logos">
                 Limerick Comedy Guide
@@ -25,6 +26,7 @@
             </h1>
         </a>
         <nav>
+            <!-- Menu for wider screens -->
             <ul id="menu">
                 <li>
                     <a href="contact.html">Contact</a>
@@ -36,6 +38,8 @@
                     <a href="index.html" class="active">Home</a>
                 </li>
             </ul>
+
+            <!-- Menu for smaller screens -->
             <ul class="mobile-menu">
                 <li>
                     <a href="index.html"><i class="fa-solid fa-house"></i></a>
@@ -49,9 +53,11 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Contact Form Section -->
     <section class="contact-section">
         <!-- form goes nowhere due to scope of project -->
-        <form action="confirmation.html" method="GET" class="contact-form"> 
+        <form action="confirmation.html" method="GET" class="contact-form">
             <h2>Have any questions, or maybe you want to tell me a joke?</h2>
             <label for="fname">First Name</label>
             <input id="fname" name="first_name" type="text" required class="text-input">
@@ -86,7 +92,9 @@
             <input type="submit" value="Fire Away!" class="fire-away-button">
         </form>
     </section>
+
     <footer>
+        <!-- Social Media Links in footer -->
         <ul class="social-links">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
