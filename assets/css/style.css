@@ -174,11 +174,11 @@ h2 {
 }
 
 .home-section-cards {
-    max-width: 80%;
+    max-width: 40%;
     height: auto;
     background-color: #2b2b2bbb;
     text-align: center;
-    padding: 5%;
+    padding: 3%;
 }
 
 .home-section-cards p a {
@@ -221,6 +221,7 @@ h2 {
 
 #regular-nights-flex {
     display: flex;
+    flex-flow: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 50px;
@@ -407,6 +408,16 @@ map-section iframe {
     }
 }
 
+@media screen and (min-width: 1000px) {
+    .mobile-menu {
+        display: none;
+    }
+
+    .regular-night-boxes {
+        min-width: 200px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #link-cards-container {
         display: grid;
@@ -420,7 +431,6 @@ map-section iframe {
         margin-left: 30px;
         margin-bottom: 20px;
     }
-
 }
 
 @media screen and (max-width: 800px) {
@@ -436,7 +446,6 @@ map-section iframe {
         text-align: center;
         margin: 10%;
         padding: 10%;
-
     }
 }
 

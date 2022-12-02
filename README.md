@@ -31,7 +31,7 @@ As of the latest version, Limerick Comedy Guide is a four page website divided b
 
     * "A Featured Gigs" Section
 
-![Landing Page]()
+![Index Page]()
 
 2. __Comedy Links__ a Directory/External link page (comedy-links.html) to introduce users to the site and to get straight into highlighting the most pertinent information one would need, in general, to get comedy fans sitting in front of the stage. This includes;
 
@@ -153,36 +153,57 @@ Browsers checked with:
 
 ### Validator Testing
 
-HTML
+__HTML__
 
-- 2 warnings were returned when passing through the official [W3C validator For index.html page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flastraeus.github.io%2Flimerick-comedy-guide%2Findex.html).
+2 warnings were returned when passing through the official [W3C validator For index.html page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flastraeus.github.io%2Flimerick-comedy-guide%2Findex.html).
 
 Heading 1 use as section headings on home page was a stylistic choice which I felt was necessary for the overall look and design for the page. The limited number of sections and priority of this information was deemed acceptable for the priority a screen reader would give those 2 "Heading 1"s.
 
 [W3C validator For comedy-links.html page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flastraeus.github.io%2Flimerick-comedy-guide%2Fcomedy-links.html) - No Errors
 
-
 [W3C validator For contact.html page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flastraeus.github.io%2Flimerick-comedy-guide%2Fcontact.html) - No Errors
 
+[W3C validator For confirmation.html page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flastraeus.github.io%2Flimerick-comedy-guide%2Fconfirmation.html) - No Errors
 
-- CSS
 
-- No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) - Code was maunally copied from css file for direct input submission.
+__CSS__
+
+- No errors were found when passing through the official [(Jigsaw) CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Code was manually copied from css file for direct input submission.
+
+### Fixed Bugs
+A non-exhaustive list of fixed bugs:
+
+* The Logo and Nav elements were running out of space on smaller screen sizes. This led to the necessity of making a more compact version of the header. IE the menu icon-version and logo Initials-version.
+
+* Invisible text in the text inputs on contact page. Solved by correcting the text color away from white.
+
+* Cards on the index and comedy-links pages initially had no wrapping capabilities whatsoever. This was remedied with solutions from online tutorials (see credits below) involving CSS Grid and Flexbox as well as a liberal use of media queries.
+
+* Broken links on index page due to capitals in the url.
 
 ### Unfixed Bugs
 
-
-I am currently not aware of any outstanding bugs. The paucity of features was due to this project scope and the early stage of my coding experience.
+I encounterd a bug on contact.html, with the textarea message box. When you resize the box to a small width, the box goes out of original alignment/position, with the lable dropping to the bottom left of it.
 
 ## Deployment
+The site was developed using Gitpods Browser Workspace. This was done by:
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
+1. Creating an account with Github and creating a GitHub repository with the project name.
 
-- In the GitHub repository, navigate to the Settings tab
+2. Navigate to the Gitpod browser extension and instal it. I used [the firefox version](https://addons.mozilla.org/en-GB/firefox/addon/gitpod/)
 
-- Navigate to the pages tab. https://github.com/Lastraeus/limerick-comedy-guide/settings/pages
+3. Navigate to the project repository and use the new green "gitpod" button to create a workspace based on the repository.
 
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+4. Select "more options" and then "open in browser". This will lead you to the workspace after inital loading.
+
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. In the GitHub repository, navigate to the Settings tab
+
+2. Navigate to the pages tab. https://github.com/Lastraeus/limerick-comedy-guide/settings/pages
+
+3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - https://lastraeus.github.io/limerick-comedy-guide/
 
@@ -206,6 +227,7 @@ The live link can be found here - https://lastraeus.github.io/limerick-comedy-gu
 - Misc reference for many property settings
 https://www.w3schools.com/css/
 
+- Most helpfully of all - my Code Institute mentor Rohit Sharma (@rohit_mentor on Code Institute Slack) who provided general critique and advice, during the planning, development and testing/refinement/review stages of this project. He was enormously helpful.
 
 ### Media
 
