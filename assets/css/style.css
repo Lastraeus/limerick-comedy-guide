@@ -372,9 +372,6 @@ footer {
     text-transform: uppercase;
 }
 
-#map-section {
-    height: auto;
-}
 
 .link-page-sections {
     text-align: center;
@@ -387,9 +384,22 @@ footer {
     background: #000000;
 }
 
-#map-section iframe {
+map-section iframe {
     width: 80%;
     aspect-ratio: 1/1;
+}
+
+.icon-map-section {
+    display:none;
+    background: #000000;
+}
+
+.icon-map-section a {
+    font-size: 500%;
+}
+
+.icon-map-section hr {
+    border-top: 1px solid #ffa500;
 }
 
 /* Media Queries */
@@ -461,7 +471,13 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    .map-section {
+        display: none;
+    }
 
+    .icon-map-section {
+        display:block;
+    }
 
     #cover-text {
         left: 10px;
@@ -522,4 +538,6 @@ footer {
     .mobile-menu {
         line-height: 50px
     }
+
+    
 }
