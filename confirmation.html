@@ -49,42 +49,12 @@
             </ul>
         </nav>
     </header>
-    <section class="contact-section">
-        <!-- form goes nowhere due to scope of project -->
-        <form action="confirmation.html" method="GET" class="contact-form"> 
-            <h2>Have any questions, or maybe you want to tell me a joke?</h2>
-            <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" required class="text-input">
-            <label for="lname">Last Name</label>
-            <input id="lname" name="last_name" type="text" required class="text-input">
-            <label for="email">Email Address</label>
-            <input id="email" name="email_address" type="email" required class="text-input">
-
-            <label for="message">Your Message</label>
-            <textarea name="message" id="message" placeholder="Come on, be nice." rows="10" cols="40"
-                class="textarea-input text-input"></textarea>
-
-            <p>Wouldn't mind pre-warning me what this is would you?</p>
-            <br>
-            <input id="suggestion" name="message_type" type="radio" value="suggestion" required>
-            <label for="suggestion">Suggestion</label>
-            <br>
-            <input id="complaint" name="message_type" type="radio" value="complaint">
-            <label for="complaint">Complaint</label>
-            <br>
-            <input id="joke" name="message_type" type="radio" value="joke">
-            <label for="joke">Joke</label>
-            <br>
-            <input id="other" name="message_type" type="radio" value="other">
-            <label for="other">Something else?</label>
-            <br>
-            <input id="nope" name="message_type" type="radio" value="nope">
-            <label for="nope">No Hints! - You'll have to see</label>
-
-            <br>
-
-            <input type="submit" value="Fire Away!" class="fire-away-button">
-        </form>
+    <!-- Confirmation message for contact.html form -->
+    <section id="hero-outer" class="confirmation-section">
+        <div id="hero-image"></div>
+        <div id="cover-text" class="confirmation-message">
+            <h2>Your message was totally, absolutely,<br> 100%, received and will be responded to... <br> any day now.</h2>
+        </div>
     </section>
     <footer>
         <ul class="social-links">
