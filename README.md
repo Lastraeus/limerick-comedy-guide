@@ -56,6 +56,19 @@ Currently, forms submitted simply redirect the user to a placeholder confirmatio
 
 ![Confirmation Page](docs/readme-images/confirmation.html.png "Confirmation Page")
 
+### __Technology Used__
+
+1.  HTML                Used to build markup stucture of the site.                  
+2.  CSS                 Used to provide both global and targated styling to the HTML    
+3.  GitHub              Used as a repository for the project                        https://github.com/
+4.  GitPod              Used as the VDE of the project.                             https://www.gitpod.io/
+5.  Firefox             Used as main browser of the project (Browsing, Editing, Dev Tools, Screenshot capablilites)     https://www.mozilla.org/en-US/firefox/new/
+6.  Chrome              Used as alt browser of the project (Testing, Dev Tools)     https://www.google.com/intl/en_ie/chrome/
+7.  Grammarly           Used to proof this page.                                    https://app.grammarly.com
+8.  FontAwesome         Source of fonts used in website.                            https://fontawesome.com/
+9.  Unsplash            Source of copyright-free images used in website.            https://unsplash.com/
+10.  Pexels             Source of copyright-free images used in website.            https://www.pexels.com/
+
 ### __Existing Features__
 
 - __Navigation Bar__
@@ -141,13 +154,13 @@ A custom-made google map, that provides the user with a grasp on the geography o
 
 ## Testing
 
-Primary testing through the development process was done via the Gitpod python server command to host a browser window of the site. Upon saving changes in gitpod, refresh the relevant browser window to see updated changes live.
+Primary testing through the development process was done via the Gitpod python server command to host a browser window of the site. Upon saving changes in gitpod, I would refresh the relevant browser window to see updated changes live.
 
-Tested to see that changes reflected design intent.
+I would then test to see that changes reflected design intent. (IE check newly added links work, elements are positioned correctly, form validates correctly etc)
 
-Resizing browser with CTRL-SHIFT-M on firefox to see responsive-design-mode. Checked down to 320px.
+Resizing browser with CTRL-SHIFT-M on firefox to see responsive-design-mode. Checked down to 320px. Resized in Chrome Dev Tools CTRL-SHIFT-I. Checked down to 280px (galaxy fold)
 
-Inspecting any unexpected or hard-to-diagnose bugs with the inspect source feature in firefox/chrome.
+Inspecting any unexpected or hard-to-diagnose bugs with the inspect source feature in firefox/chrome. Tweaking variables with Chrome Dev tools to see changes live and help diagnose problem.
 
 The result of testing is:
     - confirmation that the site layout is as the design intended. 
@@ -239,6 +252,8 @@ The live link can be found here - https://lastraeus.github.io/limerick-comedy-gu
 
 - Misc reference for many property settings
 https://www.w3schools.com/css/
+
+- Typo fixing with [Grammerly](https://app.grammarly.com) 
 
 - Most helpful of all - my Code Institute mentor Rohit Sharma (@rohit_mentor on Code Institute Slack) who provided general critique and advice, during the planning, development, and testing/refinement/review stages of this project. He was enormously helpful.
 
