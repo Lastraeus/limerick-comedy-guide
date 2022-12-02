@@ -354,7 +354,7 @@ footer {
 
 .link-cards {
     background-color: #2b2b2b;
-    min-width: 300px;
+    min-width: 90%;
     min-height: 300px;
 }
 
@@ -378,6 +378,7 @@ footer {
 
 .link-page-sections {
     text-align: center;
+    max-width: 100%;
 }
 
 .link-page-sections h2,
@@ -387,8 +388,7 @@ footer {
 }
 
 #map-section iframe {
-    width: 60%;
-    min-width: 600px;
+    width: 80%;
     aspect-ratio: 1/1;
 }
 
